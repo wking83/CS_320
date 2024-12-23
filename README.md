@@ -1,1 +1,6 @@
-# CS_320
+How can I ensure that my code, program, or software is functional and secure?
+The first thing you must do is understand the program requirements. I like to translate the requirements into clear tasks. You then can create a testing strategy based off the tasks. Then you know your tests will verify the component requirements are working as expected. To secure the application I made sure the contact class enforced input validation with constructor and setters. One example was the phone numbers being restricted to 10 digits with no null fields being accepted. 
+How do I interpret user needs and incorporate them into a program?
+The projects requirements outline what the user needs such as add, delete, and update. You want to create Junit tests that will simulate what the user will do in a real work scenario. So, I incorporated adding a contact and updating the field immediately. Then after that I attempted to delete the field. I even incorporated attempting to delete a non-existent contact to see if the program behaves correctly. 
+How do I approach designing software?
+The most important piece of software design are the requirements. You don’t want to waste the clients time and resources by creating something that is not necessary for the, you also want to design software with scalability in mind so that if change is needed you can integrate easier. The use of UML diagrams and flowcharts can easily map components and classes together before coding. 
